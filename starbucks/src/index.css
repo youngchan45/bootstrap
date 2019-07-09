@@ -1,0 +1,50 @@
+/* body{
+    font-size: 16px;
+} */
+a{
+    color: black;
+    font-weight: bold;
+}
+body{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: "Gotham", Helvetica
+    
+}
+p{
+    color: rgb(0, 0, 0, 0.56);
+}
+
+.btn1, .btn3{
+    color:rgb(26, 177, 114);
+    vertical-align:middle;
+}
+
+.btn2{
+    color:rgb(194, 166, 97);
+    vertical-align:middle;
+}
+
+
+.btn:hover, .btn:focus, .btn.focus {
+
+    color:rgb(26, 177, 114);
+    text-decoration: none;
+}
+.bold2{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.bold1{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.radius{
+    border-radius: 48px;
+    border: 1px solid rgb(26, 177, 114);
+    font-size: 16px;
+    padding: 6px 18px;
+    
+}
