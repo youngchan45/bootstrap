@@ -10,6 +10,7 @@
     background-color: white;
     opacity: 0.2;
 }
+
 .dialogue{
     height: 55px;
     width: 55px;
@@ -373,12 +374,12 @@ footer{
     margin-right: 20px;
     
 }
-#getDemo {
+/* #getDemo {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    }
+    } */
 /* .modal-head{
     position: relative;
     
@@ -386,6 +387,10 @@ footer{
 } */
 .spanhead{
     float: left;
+}
+.spanhead h3{
+    text-align: left;
+    margin-top:10px;
 }
 
 .form{
