@@ -101,41 +101,49 @@
                 </div>
                 <!-- 弹窗 -->
 
-                <div class="modal fade" id="getDemo">
-                    <div class="modal-dialog">
+                <div class="modal fade" id="getDemo" role="dialog">
+                    <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="modal-header">
                                 <button type="button" class="close" data-dismiss="modal"
                                     aria-hidden="true">&times;</button>
-                                <div class="modal-head">
-                                    <img src="../img/ram120.png" alt="">
-                                    <span class="spanhead">
-                                        <h3>Let's have a demo!</h3>
-                                        <p>Ram Pal — Onboarding Manager</p>
-                                    </span>
-                                </div>
+                                <!-- <div class="modal-head"> -->
+                                <img src="../img/ram120.png" alt="">
+                                <!-- <span class="spanhead"> -->
+                                
+                                    <h3 class="dia-left">Let's have a demo!</h3>
+                                    <p>Ram Pal — Onboarding Manager</p>
+                                
+                                <!-- </span> -->
+                                <!-- </div> -->
                             </div>
 
                             <div class="modal-body">
-                                <div class="form center-block">
-                                    <div class="form1">
-                                        <input type="text" name="" id="input" class="form-control"
-                                            placeholder="First Name*" value="" required="required" pattern="" title="">
-                                    </div>
-                                    <div class="form2">
-                                        <input type="text" name="" id="input" class="form-control"
-                                            placeholder="Work Email Address*" value="" required="required" pattern=""
-                                            title="">
-                                    </div>
-                                    <div class="form3">
-                                        <input type="text" name="" id="input" class="form-control"
-                                            placeholder="Company*" value="" required="required" pattern="" title="">
+                                <div class="ml-block-form">
+                                    <div class="subscribe-form">
+                                        <div class="form-section">
+                                            <div class="form-group">
+                                                <input type="text" name="" id="input" class="form-control"
+                                                    placeholder="First Name*" value="" required="required" pattern=""
+                                                    title="">
+                                            </div>
+                                            <div class="form2">
+                                                <input type="email" name="" id="input" class="form-control"
+                                                    placeholder="Work Email Address*" value="" required="required"
+                                                    pattern="" title="">
+                                            </div>
+                                            <div class="form3">
+                                                <input type="text" name="" id="input" class="form-control"
+                                                    placeholder="Company*" value="" required="required" pattern=""
+                                                    title="">
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="modal-footer">
-                                <button type="button" class="btn btn-warning-modal">Request a demo</button>
+                                <button type="submit" class="btn btn-warning-modal">Request a demo</button>
                             </div>
                         </div>
                     </div>

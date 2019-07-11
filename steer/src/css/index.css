@@ -355,15 +355,27 @@ footer{
 }
 
 /* 弹窗样式 */
-/* .modal .fade{
-    width: 200px;
-} */
+/* .modal .fade .in{
+    top: 50%;
+    /* transform: translateY(-50%);  */
+ 
+
 .modal-dialog{
-    width: 500px;   
+       
+    display: inline-block;
+    vertical-align: middle;
+    text-align: left;
+    /* margin: 30px auto;
+    position: relative; */
 }
+/* .modal.in .modal-dialog{
+    transform: translate(0,0);
+} */
 .modal-content{
+    width: 500px;
     background-color: #f9fafb;
     padding: 35px 35px;
+    margin: 0 auto;
 }
 .modal-content img{
     height: 66px;
@@ -388,9 +400,9 @@ footer{
 .spanhead{
     float: left;
 }
-.spanhead h3{
-    text-align: left;
-    margin-top:10px;
+.dia-left{
+    /* text-align: left; */
+    margin-top:5px;
 }
 
 .form{
