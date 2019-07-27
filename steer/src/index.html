@@ -15,22 +15,22 @@
 
 </head>
 
-<body>
+<body onload="hidedia()">
     <!--以下是背景视频-->
     <video autoplay loop muted controlslist="nodownload" id="bg-video">
         <source src="../img/Code.mp4" type="video/mp4">
     </video>
 
     <!--以下是客服按钮-->
-    <button class="dialogue">
+    <button class="dialogue" id="dia">
         <img class="dia center-block" src="../img/聊天记录.svg" alt="">
     </button>
 
-    <div class="dia-click">
+    <div class="dia-click" id="dia-cli">
         <!--橙色部分-->
         <div class="click-head">
             <a href=""><span>Ram Pal</span></a>
-            <a href="" class="more"><img src="../img/更多.svg" alt=""></a>
+            <a href="" class="more"><img src="../img/更多.svg" id="more" alt=""></a>
             <p>Hey, if you have any questions about Steer let us know!</p>
         </div>
         <!--白色部分-->
@@ -66,7 +66,6 @@
                 </a>
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
-
                 <ul class="nav navbar-nav navbar-right">
                     <li>
                         <a href="#">Product</a>
@@ -96,7 +95,8 @@
                     productive
                     teams no matter where they are.</p>
                 <div>
-                    <button class="btn btn-warning center-block" data-toggle="modal" data-target="#getDemo">Get a
+                    <button class="btn btn-warning center-block" id="btn-getDemo" data-toggle="modal"
+                        data-target="#getDemo">Get a
                         Demo</button>
                 </div>
                 <!-- 弹窗 -->
@@ -110,10 +110,8 @@
                                 <!-- <div class="modal-head"> -->
                                 <img src="../img/ram120.png" alt="">
                                 <!-- <span class="spanhead"> -->
-                                
-                                    <h3 class="dia-left">Let's have a demo!</h3>
-                                    <p>Ram Pal — Onboarding Manager</p>
-                                
+                                <h3 class="dia-left">Let's have a demo!</h3>
+                                <p>Ram Pal — Onboarding Manager</p>
                                 <!-- </span> -->
                                 <!-- </div> -->
                             </div>
@@ -229,7 +227,6 @@
                     </div>
                     <div class="col-md-1"></div>
                 </div>
-
 
                 <!--以下是banner3展示-->
                 <div class="row">
@@ -348,8 +345,6 @@
         </div>
     </div>
 
-
-
     <!--以下是轮播图5展示-->
     <div id="carousel-id" class="carousel slide" data-ride="carousel">
         <!--以下是三个小圆圈-->
@@ -422,12 +417,10 @@
                                     <span class="glyphicon glyphicon-chevron-right"></span>
                                 </a> -->
         </div>
-
     </div>
     </div>
     <div class="col-md-2"></div>
     </div>
-
 
     <!--以下是四个大数字banner6展示-->
     <div class="row">
@@ -467,9 +460,7 @@
                     <button class="btn btn-warning btn-warning-opposite center-block">Get a Demo</button>
                 </div>
             </div>
-
         </div>
-
     </div>
 
 
@@ -599,19 +590,15 @@
 
                 </div>
             </div>
-
-
         </div>
         <div class="col-md-2"></div>
         </div>
     </footer>
 
 
-
-
-
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="../src/index.js"></script>
 </body>
 
 </html>

@@ -27,6 +27,9 @@
 .dialogue:hover{
     background-color:#a1735c;
 }
+.dialogue:focus{
+    outline: none;
+}
 .dia{
     height: 25px;
     width: 25px;
@@ -47,6 +50,7 @@
     z-index: 1;
     overflow: hidden;
     border-radius: 10px;
+    display: none;
 }
 
 /*对话框橙色部分*/
